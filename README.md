@@ -1,22 +1,22 @@
 # Digital-Wallet-Payvorite-
 This project implements a simple digital wallet system using Java. The digital wallet allows users to perform various financial transactions such as cashing in money, sending money to other users, and paying bills. Additionally, users can view their transaction history.The wallet maintains a balance for the user and records each transaction with details such as amount, description, and date.
 
-##Features
+## Features
 1. Cash In: Add money to the wallet balance.
 2. Send Money: Transfer money to another user.
 3. Pay Bills: Pay various types of bills directly from the wallet.
 4. View Transaction History: Display a detailed list of all transactions performed by the user.
 
-##Classes and Structure
+## Classes and Structure
 ###DigitalWallet (Abstract Class)
 *This class defines the core properties and methods for the digital wallet:
 
-##Properties:
+## Properties:
 *balance: The current balance in the wallet.
 *transactionHistory: A list to keep track of all transactions.
 *userName, userNumber, birthDate, refNumber: User details.
 
-##Methods:
+## Methods:
 *cashIn(double amount): Abstract method to add money to the wallet.
 *sendMoney(double amount, String recipient): Abstract method to send money to another user.
 *payBill(double amount, String billType): Abstract method to pay a bill.
