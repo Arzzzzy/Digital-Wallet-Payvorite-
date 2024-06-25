@@ -6,6 +6,7 @@ This project implements a simple digital wallet system using Java. The digital w
 2. Send Money: Transfer money to another user.
 3. Pay Bills: Pay various types of bills directly from the wallet.
 4. View Transaction History: Display a detailed list of all transactions performed by the user.
+5. Generate OTP: Create a One-Time Password and save it to a text file for secure transactions.
 
 ## Classes and Structure
 ### DigitalWallet (Abstract Class)
@@ -38,6 +39,10 @@ This project implements a simple digital wallet system using Java. The digital w
 * sendMoney(double amount, String recipient): Transfers the specified amount to the recipient if the balance is sufficient, otherwise displays an error message.
 * payBill(double amount, String billType): Pays the specified bill amount if the balance is sufficient, otherwise displays an error message.
 * viewTransactionHistory(): Displays the transaction history in a message dialog.
+
+## User Login
+* phonenumber: 09086233792
+* mpin: 1234
 
 ## Requirements
 * Java Development Kit (JDK) 8 or higher
