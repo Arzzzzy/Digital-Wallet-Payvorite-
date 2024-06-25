@@ -8,13 +8,13 @@ This project implements a simple digital wallet system using Java. The digital w
 4. View Transaction History: Display a detailed list of all transactions performed by the user.
 
 ## Classes and Structure
-###DigitalWallet (Abstract Class)
-*This class defines the core properties and methods for the digital wallet:
+### DigitalWallet (Abstract Class)
+* This class defines the core properties and methods for the digital wallet:
 
 ## Properties:
-*balance: The current balance in the wallet.
-*transactionHistory: A list to keep track of all transactions.
-*userName, userNumber, birthDate, refNumber: User details.
+* balance: The current balance in the wallet.
+* transactionHistory: A list to keep track of all transactions.
+* userName, userNumber, birthDate, refNumber: User details.
 
 ## Methods:
 * cashIn(double amount): Abstract method to add money to the wallet.
