@@ -1,4 +1,4 @@
-# Digital-Wallet-Payvorite-
+# Digital-Wallet-System-
 This project implements a simple digital wallet system using Java. The digital wallet allows users to perform various financial transactions such as cashing in money, sending money to other users, and paying bills. Additionally, users can view their transaction history.The wallet maintains a balance for the user and records each transaction with details such as amount, description, and date.
 
 ## Features
