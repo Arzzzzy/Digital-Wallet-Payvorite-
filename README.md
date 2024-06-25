@@ -50,3 +50,4 @@ This project implements a simple digital wallet system using Java. The digital w
 
 ### Author
 arzadonchristianandrei@gmail.com
+Object-Oriented Programming Final Project 2023
