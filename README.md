@@ -17,31 +17,31 @@ This project implements a simple digital wallet system using Java. The digital w
 *userName, userNumber, birthDate, refNumber: User details.
 
 ## Methods:
-*cashIn(double amount): Abstract method to add money to the wallet.
-*sendMoney(double amount, String recipient): Abstract method to send money to another user.
-*payBill(double amount, String billType): Abstract method to pay a bill.
-*viewTransactionHistory(): Abstract method to view the transaction history.
+* cashIn(double amount): Abstract method to add money to the wallet.
+* sendMoney(double amount, String recipient): Abstract method to send money to another user.
+* payBill(double amount, String billType): Abstract method to pay a bill.
+* viewTransactionHistory(): Abstract method to view the transaction history.
 
-##Transaction (Inner Class):
-*Represents a transaction with properties for amount, description, and date.
-*Overrides toString() method to provide a string representation of the transaction.
+## Transaction (Inner Class):
+* Represents a transaction with properties for amount, description, and date.
+* Overrides toString() method to provide a string representation of the transaction.
 
-##UserDigitalWallet (Concrete Class)
-*This class extends the DigitalWallet class and provides concrete implementations for the abstract methods:
+## UserDigitalWallet (Concrete Class)
+* This class extends the DigitalWallet class and provides concrete implementations for the abstract methods:
 
-##Constructor:
-*Initializes the wallet with a default balance and user details.
-*Formats the balance display using DecimalFormat.
+## Constructor:
+* Initializes the wallet with a default balance and user details.
+* Formats the balance display using DecimalFormat.
 
-##Methods:
-*cashIn(double amount): Adds the specified amount to the wallet balance and updates the transaction history.
-*sendMoney(double amount, String recipient): Transfers the specified amount to the recipient if the balance is sufficient, otherwise displays an error message.
-*payBill(double amount, String billType): Pays the specified bill amount if the balance is sufficient, otherwise displays an error message.
-*viewTransactionHistory(): Displays the transaction history in a message dialog.
+## Methods:
+* cashIn(double amount): Adds the specified amount to the wallet balance and updates the transaction history.
+* sendMoney(double amount, String recipient): Transfers the specified amount to the recipient if the balance is sufficient, otherwise displays an error message.
+* payBill(double amount, String billType): Pays the specified bill amount if the balance is sufficient, otherwise displays an error message.
+* viewTransactionHistory(): Displays the transaction history in a message dialog.
 
-##Requirements
-*Java Development Kit (JDK) 8 or higher
-*Swing library for GUI components (included in JDK)
+## Requirements
+* Java Development Kit (JDK) 8 or higher
+* Swing library for GUI components (included in JDK)
 
-###Author
+### Author
 arzadonchristianandrei@gmail.com
